@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV & Education - Mikael Farzaneh</title>
+    <link rel="stylesheet" href="tyyli.css"> <!-- Käytetään samaa CSS-tiedostoa -->
+</head>
+<body>
+   <header> 
+      <div class="nav-container">
+          <h1 class="cv-header">CV & Education</h1>
+          <button class="menu-toggle" onclick="toggleMenu()">&#9776;</button>
+          <nav id="nav-menu" class="hidden">
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About Me</a></li>
+                  <li><a href="skills.html">My Skills</a></li>
+                  <li><a href="cv.html">CV & Education</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+              </ul>
+         </nav>
+      </div>
+  </header>
+    
+    <main>
+        <section class="cv-section">
+            <div class="gray-box">
+                <h2>Education</h2>
+                <p><strong>Graduated as a Financial Specialist (Merkonomi)</strong> from Helsinki Business College, where I studied financial planning, investment strategies, accounting, and customer service in the finance sector.</p>
+                <p><strong>Now studying IT and Business</strong> at Haaga-Helia University of Applied Sciences, focusing on web development, digital business, and financial analysis. My goal is to combine technology and entrepreneurship to develop innovative solutions for the future.</p>
+            </div>
+            <div class="gray-box">
+                <h2>Certifications</h2>
+                <p><strong>Alcohol Serving Certificate</strong> – Qualifies me to serve and handle alcoholic beverages in accordance with Finnish regulations.</p>
+                <p><strong>Vocational upper secondary qualification in Business and Administration</strong> – Competence area in Customer Services and Sales, Merkonomi.</p>
+            </div>
+            <div class="gray-box">
+                <h2>Work Experience</h2>
+                <p><strong>Crypto & Stock Market Investor</strong> – Trading and investment analysis since 2019.</p>
+                <p><strong>Freelance Business Consultant</strong> – Helping startups with finance and strategy.</p>
+            </div>
+            <div class="gray-box">
+                <h2>Download My CV</h2>
+                <p><a href="uusin_cv.pdf" target="_blank">Click here to download my CV (PDF)</a></p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <h3>Contact Me</h3>
+        <p>Email: <a href="mailto:Mikael.farzanehkari@gmail.com">Mikael.farzanehkari@gmail.com</a></p>
+        <p>Phone: <a href="tel:+358451797374">+358 45 1797374</a></p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/mikael-farzaneh-kari" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/mikey.f01" target="_blank">Instagram</a>
+            <a href="https://www.snapchat.com/add/mikaelfarzaneh" target="_blank">Snapchat</a>
+        </div>
+    </footer>
+    
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("nav-menu");
+            if (menu.classList.contains("show")) {
+                menu.classList.remove("show");
+            } else {
+                menu.classList.add("show");
+            }
+        }
+    </script>
+</body>
+</html>

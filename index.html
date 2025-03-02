@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mikael Farzaneh - Home</title>
+    <link rel="stylesheet" href="tyyli.css"> <!-- Varmista, että CSS-tiedosto on oikein -->
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <h1>Mikael Farzaneh</h1>
+            <button class="menu-toggle" onclick="toggleMenu()">&#9776;</button>
+            <nav id="nav-menu" class="hidden">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="skills.html">My Skills</a></li>
+                    <li><a href="cv.html">CV & Education</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="profile-container">
+            <img src="minävanha.jpg" alt="Mikael Farzaneh" class="profile-pic">
+        </div>
+    </header>
+    
+    <main>
+        <section class="intro">
+            <h2>I am Mikael Farzaneh</h2>
+            <p>IT and business student and a successful crypto investor from Helsinki. With a strong passion for technology, finance, and entrepreneurship, I actively trade and analyze crypto markets while expanding my expertise in IT and business strategy. My goal is to combine these fields to create innovative solutions and build a strong professional network. Welcome to my personal website! </p>
+        </section>
+    </main>
+    
+    <footer>
+        <h3>Contact Me</h3>
+        <p>Email: <a href="mailto:Mikael.farzanehkari@gmail.com">Mikael.farzanehkari@gmail.com</a></p>
+        <p>Phone: <a href="tel:+358451797374">+358 45 1797374</a></p>
+    </footer>
+    
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("nav-menu");
+            menu.classList.toggle("show");
+        }
+    </script>
+</body>
+</html>

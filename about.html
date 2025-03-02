@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Mikael Farzaneh</title>
+    <link rel="stylesheet" href="tyyli.css"> <!-- Käytetään samaa CSS-tiedostoa -->
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <h1 class="about-header">About Me</h1>
+            <button class="menu-toggle" onclick="toggleMenu()">&#9776;</button>
+            <nav id="nav-menu" class="hidden">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+					<li><a href="skills.html">My Skills</a></li>
+                    <li><a href="cv.html">CV & Education</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section class="about-section">
+           
+            <h2>My name is Mikael Farzaneh Kari</h2>
+            <div class="gray-box">
+                <p>A 23-year-old IT and business student from Helsinki. Before diving into IT and business studies, I graduated as a financial specialist (merkonomi) from Helsinki Business College. My background in finance gave me a strong foundation in investment strategies and market analysis, which naturally led me to the world of cryptocurrency investing.</p>
+                <p>I started investing in cryptocurrencies five years ago and have since developed a diverse strategy that balances long-term holdings with active trading. My ultimate goal is to establish my own investment firm in the future, helping others navigate and succeed in the world of finance and digital assets.</p>
+                <p>Beyond investing, I am passionate about artificial intelligence and startup entrepreneurship. I believe in continuous learning and innovation, and I am always looking for new ways to combine technology and business to create meaningful impact.</p>
+                <p>This website serves as a space to share my expertise, connect with like-minded individuals, and explore new opportunities in both IT and finance.</p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <h3>Contact Me</h3>
+        <p>Email: <a href="mailto:Mikael.farzanehkari@gmail.com">Mikael.farzanehkari@gmail.com</a></p>
+        <p>Phone: <a href="tel:+358451797374">+358 45 1797374</a></p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/mikael-farzaneh-kari" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/mikey.f01" target="_blank">Instagram</a>
+            <a href="https://www.snapchat.com/add/mikaelfarzaneh" target="_blank">Snapchat</a>
+        </div>
+    </footer>
+    
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("nav-menu");
+            if (menu.classList.contains("show")) {
+                menu.classList.remove("show");
+            } else {
+                menu.classList.add("show");
+            }
+        }
+    </script>
+</body>
+</html>

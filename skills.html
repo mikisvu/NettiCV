@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills - Mikael Farzaneh</title>
+    <link rel="stylesheet" href="tyyli.css"> <!-- Käytetään samaa CSS-tiedostoa -->
+</head>
+<body>
+    <header>
+	  <div class="nav-container">
+	       <h1 class="skills-header">My Skills</h1>
+           <button class="menu-toggle" onclick="toggleMenu()">&#9776;</button>
+           <nav id="nav-menu" class="hidden">
+              <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="about.html">About Me</a></li>
+                 <li><a href="skills.html">My Skills</a></li>
+                 <li><a href="cv.html">CV & Education</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+             </ul>
+         </nav> 
+	  </div>
+    </header>
+    
+    <main>
+        <section class="skills-section">
+            <div class="skill-box gray-box">
+                <h2>IT Skills</h2>
+                <p><strong>IT Basic Web Development</strong> – Learning how to create websites using HTML.</p>
+                <p><strong>Data Analysis Basics</strong> – Understanding Excel, spreadsheets, and financial data analysis.</p>
+                <p><strong>Artificial Intelligence & Automation</strong> – Actively using AI tools for data analysis, automation, and business applications.</p>
+            </div>
+            <div class="skill-box gray-box">
+                <h2>Business & Finance</h2>
+                <p><strong>Financial Planning & Budgeting</strong> – Ability to create budgets and manage finances effectively.</p>
+                <p><strong>Accounting & Bookkeeping Basics</strong> – Understanding financial statements and bookkeeping principles.</p>
+                <p><strong>Customer Service & Sales</strong> – Experience from business studies in providing professional customer service.</p>
+                <p><strong>Business Strategy & Analysis</strong> – Strong interest in analyzing business models and market trends.</p>
+            </div>
+            <div class="skill-box gray-box">
+                <h2>Investing Skills</h2>
+                <p><strong>Crypto & Stock Market Trading</strong> – Experienced in long-term investing and active trading.</p>
+                <p><strong>Risk Management</strong> – Ability to assess risks and make calculated investment decisions.</p>
+                <p><strong>Market Analysis</strong> – Following financial markets and applying both technical and fundamental analysis.</p>
+                <p><strong>Identifying High-Growth Investment Opportunities</strong> – Skilled at finding assets with high potential to multiply the invested capital.</p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <h3>Contact Me</h3>
+        <p>Email: <a href="mailto:Mikael.farzanehkari@gmail.com">Mikael.farzanehkari@gmail.com</a></p>
+        <p>Phone: <a href="tel:+358451797374">+358 45 1797374</a></p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/mikael-farzaneh-kari" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/mikey.f01" target="_blank">Instagram</a>
+            <a href="https://www.snapchat.com/add/mikaelfarzaneh" target="_blank">Snapchat</a>
+        </div>
+    </footer>
+    
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("nav-menu");
+            if (menu.classList.contains("show")) {
+                menu.classList.remove("show");
+            } else {
+                menu.classList.add("show");
+            }
+        }
+    </script>
+</body>
+</html>

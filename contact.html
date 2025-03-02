@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Mikael Farzaneh</title>
+    <link rel="stylesheet" href="tyyli.css"> <!-- Käytetään samaa CSS-tiedostoa -->
+</head>
+<body>
+<header> 
+      <div class="nav-container">
+          <h1 class="contact-header">Contact</h1>
+          <button class="menu-toggle" onclick="toggleMenu()">&#9776;</button>
+         <nav id="nav-menu" class="hidden">
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About Me</a></li>
+                  <li><a href="skills.html">My Skills</a></li>
+                  <li><a href="cv.html">CV & Education</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+              </ul>
+         </nav>
+      </div>
+  </header> 
+    <main>
+        <section class="contact-section">
+            <div class="gray-box">
+                <h2>Get in Touch</h2>
+                <p>Email: <a href="mailto:Mikael.farzanehkari@gmail.com">Mikael.farzanehkari@gmail.com</a></p>
+                <p>Phone: <a href="tel:+358451797374">+358 45 1797374</a></p>
+            </div>
+            
+            <div class="gray-box">
+                <h2><img src="linkedin.png" alt="LinkedIn" class="social-icon"> LinkedIn</h2>
+                <p><a href="https://www.linkedin.com/in/mikael-farzaneh-kari" target="_blank">Visit my LinkedIn</a></p>
+            </div>
+            
+            <div class="gray-box">
+                <h2><img src="instagram.jpg" alt="Instagram" class="social-icon"> Instagram</h2>
+                <p><a href="https://www.instagram.com/mikey.f01" target="_blank">Follow me on Instagram</a></p>
+            </div>
+            
+            <div class="gray-box">
+                <h2><img src="snapchat.jpg" alt="Snapchat" class="social-icon"> Snapchat</h2>
+                <p><a href="https://www.snapchat.com/add/mikaelfarzaneh" target="_blank">Add me on Snapchat</a></p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <h3>Contact Me</h3>
+        <p>Email: <a href="mailto:Mikael.farzanehkari@gmail.com">Mikael.farzanehkari@gmail.com</a></p>
+        <p>Phone: <a href="tel:+358451797374">+358 45 1797374</a></p>
+    </footer>
+    
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("nav-menu");
+            if (menu.classList.contains("show")) {
+                menu.classList.remove("show");
+            } else {
+                menu.classList.add("show");
+            }
+        }
+    </script>
+</body>
+</html>
