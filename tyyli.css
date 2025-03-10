@@ -131,6 +131,10 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+footer p a {
+    color: #0056b3; /* Tummempi sininen */
+    text-decoration: underline; /* Parantaa erottuvuutta */
+}
 
 .social-links a {
     color: white;
