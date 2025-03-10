@@ -132,10 +132,9 @@ footer {
     margin-top: 20px;
 }
 footer p a {
-    color: #0056b3; /* Tummempi sininen */
-    text-decoration: underline; /* Parantaa erottuvuutta */
+    color: #ffcc00; /* Kirkas oranssi */
+    text-decoration: underline;
 }
-
 .social-links a {
     color: white;
     margin: 0 10px;
